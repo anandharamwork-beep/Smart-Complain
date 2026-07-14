@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Smart Complaint Portal</title>
+</head>
+<body>
+    <h2>AI Smart Complaint Portal</h2>
+
+    <form action="/submit" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Complaint:</label><br>
+        <textarea name="complaint" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Submit Complaint">
+    </form>
+
+</body>
+</html>
