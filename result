@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Submitted</title>
+</head>
+<body>
+
+<h2>Complaint Submitted Successfully!</h2>
+
+<p><strong>Name:</strong> {{ name }}</p>
+
+<p><strong>Complaint:</strong> {{ complaint }}</p>
+
+<p><strong>Assigned Department:</strong> {{ department }}</p>
+
+<a href="/">Submit Another Complaint</a>
+
+</body>
+</html>
